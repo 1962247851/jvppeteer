@@ -48,6 +48,15 @@ public enum ConnectionEvents {
     Network_loadingFinished("Network.loadingFinished"),
     Network_loadingFailed("Network.loadingFailed"),
     Network_responseReceivedExtraInfo("Network.responseReceivedExtraInfo"),
+
+    Network_webSocketClosed("Network.webSocketClosed"),
+    Network_webSocketCreated("Network.webSocketCreated"),
+    Network_webSocketFrameError("Network.webSocketFrameError"),
+    Network_webSocketFrameReceived("Network.webSocketFrameReceived"),
+    Network_webSocketFrameSent("Network.webSocketFrameSent"),
+    Network_webSocketHandshakeResponseReceived("Network.webSocketHandshakeResponseReceived"),
+    Network_webSocketWillSendHandshakeRequest("Network.webSocketWillSendHandshakeRequest"),
+
     Tracing_tracingComplete("Tracing.tracingComplete"),
     Input_dragIntercepted("Input.dragIntercepted"),
     /**
